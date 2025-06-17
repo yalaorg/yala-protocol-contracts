@@ -1,0 +1,25 @@
+.DS_Store
+cache/
+artifacts/
+exports/
+# deploy/
+deployments/localhost
+deployments/**/solcInputs
+
+docs/output
+coverage*
+.vscode/*
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+!.vscode/extensions.json.default
+
+node_modules/
+.env
+.yalc
+yalc.lock
+# test/
+types/
+contractsInfo.json
+deployments/
+!contracts/test
+.husky

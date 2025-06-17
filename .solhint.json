@@ -1,0 +1,53 @@
+{
+	"extends": "solhint:recommended",
+	"plugins": [
+		"prettier"
+	],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		],
+		"custom-errors": "off",
+		"immutable-vars-naming": "off",
+		"quotes": [
+			"error",
+			"double"
+		],
+		"code-complexity": [
+			"error",
+			60
+		],
+		"compiler-version": [
+			"error",
+			">=0.8.0"
+		],
+		"const-name-snakecase": "off",
+		"func-name-mixedcase": "off",
+		"constructor-syntax": "error",
+		"no-global-import": "off",
+		"func-visibility": [
+			"error",
+			{
+				"ignoreConstructors": true
+			}
+		],
+		"check-send-result": "off",
+		"no-empty-blocks": "off",
+		"var-name-mixedcase": "off",
+		"not-rely-on-time": "off",
+		"not-rely-on-block-hash": "off",
+		"no-inline-assembly": "off",
+		"avoid-low-level-calls": "off",
+		"reentrancy": "off",
+		"max-states-count": 30,
+		"reason-string": [
+			"warn",
+			{
+				"maxLength": 100
+			}
+		]
+	}
+}

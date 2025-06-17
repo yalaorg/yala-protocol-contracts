@@ -1,0 +1,13 @@
+.DS_Store
+test/
+hbs/
+contracts/
+artifacts/
+cache/
+deploy/
+tasks/
+deployments/
+.env
+!types/**/test
+!types/**/contracts
+!contracts/test
