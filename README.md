@@ -1,7 +1,9 @@
 ![License: GPL](https://img.shields.io/badge/license-GPLv3-blue)![Version Badge](https://img.shields.io/badge/version-0.0.1-lightgrey.svg)
-# Yala Protocol
 
-Yala protocol contracts
+# Bitcoin liquidity layer protocol contracts 
+
+Yala is a Bitcoin-native liquidity protocol that enables Bitcoin holders to earn real yield from DeFi and RWAs without giving up ownership of their assets. The repository contains protocol smart contracts with LayerZero cross-chain infrastructure and Chainlink oracle integration.
+Core mechanisms include collateral management, stablity pool and PSM, establishing a liquidity infrastructure layer for the Bitcoin ecosystem.
 
 ## Install
 
@@ -9,7 +11,7 @@ Yala protocol contracts
 
 ## Get start
 
-1. create `.env` file  and set your mnemonic as below
+1. create `.env` file  and set your environment variables as below
 
    ```
    MNEMONIC="yourn mnemonic"
